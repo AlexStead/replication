@@ -3,8 +3,6 @@ ssc install sfcross, replace
 ssc install estout, replace
 net install github, from("https://haghish.github.io/github/")
 github install AlexStead/rfrontier, version(1.1.0)
-// N.B. For replication, replace the filepaths below and on lines 255-257, 272-274 as appropriate
-//sysdir set PERSONAL "C:\Users\traads\OneDrive - University of Leeds\M Drive\stata\ado\personal"
 clear all
 set maxvar 100000
 import delimited "https://github.com/AlexStead/data/tree/main/replication/robustMLEofSFM/ElectricityCosts.csv"
